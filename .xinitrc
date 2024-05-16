@@ -56,13 +56,13 @@ feh --bg-fill -z ~/.local/wallpapers/ &
 picom -b
 
 
+setxkbmap -layout de, ir &
+setxkbmap -option 'grp:alt_shift_toggle' &
+setxkbmap -option caps:swapescape &
+
 
 while true; do
 	dwm >/dev/null 2>&1
 done
 exec dwm
-
-setxkbmap -layout de, ir &
-setxkbmap -option 'grp:alt_shift_toggle' &
-setxkbmap -option caps:swapescape &
 

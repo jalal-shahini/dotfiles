@@ -41,4 +41,8 @@ printf $(echo "$stat" | sed -e \
   ;s/Full/ / \
   ;s/ 0*/ /g;s/ :/ /g") "$warn"
 
+if [ "$capacity" -le 40 ] && [ "$stat" != "Charging" ]; then
+	notify-send -t 400000 -u critical "BATTERY LOW" "Battery is less than 25\%."
+fi
+
 echo " $capacity%"
