@@ -1,0 +1,8 @@
+.cache
+.dropbox
+.dropbox-dist
+.gnupg
+.ssh
+.local
+.motion
+.password-store

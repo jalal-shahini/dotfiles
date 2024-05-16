@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/01_personal/02_resources/01_texts/Allen.M_1989_Computer-Simulation-of-Liquids.pdf
+File2[$e]=$HOME/01_personal/02_resources/01_texts/Abraham.Farid_1998_Spanning-the-length-scales-in-dynamic-simulation.pdf
+Name1[$e]=Allen.M_1989_Computer-Simulation-of-Liquids.pdf
+Name2[$e]=Abraham.Farid_1998_Spanning-the-length-scales-in-dynamic-simulation.pdf

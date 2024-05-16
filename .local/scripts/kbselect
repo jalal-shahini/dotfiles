@@ -1,0 +1,10 @@
+#!/bin/bash
+
+var=" $(xset -q | grep -i "led mask" | grep -o "....1...")"
+if [ -z $var ]
+then
+    echo "de"
+else
+    echo "ir"
+fi
+
